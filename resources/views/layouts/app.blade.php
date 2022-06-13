@@ -14,7 +14,7 @@
     </head>
     <body>
         <header id="site_header">
-            <div class="logo">
+            <div class="logo text-center">
                 MOVIES
             </div>
             <!-- /.logo -->
@@ -27,7 +27,7 @@
         <!-- /#site_main -->
 
         <footer id="site_footer">
-            <div class="copy">
+            <div class="copy text-center">
                 Made with &hearts; by Alexx
             </div>
             <!-- /.copy -->
