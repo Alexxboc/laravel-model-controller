@@ -11,12 +11,12 @@
                     <img src="{{$movie->image}}" alt="{{$movie->title}}">
                     <div class="card-body">
                         <h5 class="card-title text-center">{{$movie->original_title}}</h5>
-                        <small class="language">
+                        <div class="language text-center">
                             Lan: {{$movie->nationality}}
-                        </small>
-                        <small class="date">
+                        </div>
+                        <div class="date text-center">
                             Release date: {{$movie->date}}
-                        </small>
+                        </div>
                     </div>
 
                     <strong class="text-center">{{$movie->vote}}</strong>

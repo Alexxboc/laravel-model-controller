@@ -3,7 +3,13 @@
 /* Header */
 
 #site_header {
-    padding: 3rem;
+    padding: 1.5rem;
+    background-color: #7fa1bb;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
 }
 
 
@@ -21,4 +27,14 @@
         height: 350px;
         border-radius: 15px;
     }
+    .language,
+    .date {
+        font-size: 10px;
+        color: lightgrey;
+    }
+}
+
+#site_footer {
+    padding: 2rem;
+    background-color: #7fa1bb;
 }

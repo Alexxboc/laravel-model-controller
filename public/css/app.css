@@ -10230,11 +10230,32 @@ textarea.form-control-lg {
 }
 /* Header */
 #site_header {
-  padding: 3rem;
+  padding: 1.5rem;
+  background-color: #7fa1bb;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Main */
+.movies {
+  padding: 5rem 0;
 }
 
 /* Card */
 .card img {
   height: 350px;
   border-radius: 15px;
+}
+.card .language,
+.card .date {
+  font-size: 10px;
+  color: lightgrey;
+}
+
+#site_footer {
+  padding: 3rem;
+  background-color: #7fa1bb;
 }
