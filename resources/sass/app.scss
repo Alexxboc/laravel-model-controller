@@ -1,1 +1,24 @@
 @use 'bootstrap';
+
+/* Header */
+
+#site_header {
+    padding: 3rem;
+}
+
+
+/* Main */
+
+.movies {
+    padding: 5rem 0;
+}
+
+
+/* Card */
+
+.card {
+    img {
+        height: 350px;
+        border-radius: 15px;
+    }
+}

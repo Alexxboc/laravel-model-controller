@@ -1,16 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
+
+<section class="movies">
     <div class="container">
-        <div class="row row-cols-5">
+        <div class="row row-cols-5 gy-5">
             @forelse($movies as $movie)
             <div class="col">
-                <div class="card">
-                    <img class="img-fluid" src="{{$movie->image}}" alt="{{$movie->title}}">
-                    <h3>{{$movie->original_title}}</h3>
-                    <p>{{$movie->nationality}}</p>
-                    <p>{{$movie->date}}</p>
-                    <p>{{$movie->vote}}</p>
+                <div class="card border-0">
+                    <img src="{{$movie->image}}" alt="{{$movie->title}}">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{$movie->original_title}}</h5>
+                        <small class="language">
+                            Lan: {{$movie->nationality}}
+                        </small>
+                        <small class="date">
+                            Release date: {{$movie->date}}
+                        </small>
+                    </div>
+
+                    <strong class="text-center">{{$movie->vote}}</strong>
                 </div>
             </div>
             <!-- /.col -->
@@ -21,4 +30,6 @@
         <!-- /.row row-cols-3 -->
     </div>
     <!-- /.container -->
+</section>
+
 @endsection
