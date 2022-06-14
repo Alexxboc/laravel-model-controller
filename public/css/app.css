@@ -10245,6 +10245,10 @@ textarea.form-control-lg {
 }
 
 /* Card */
+.card:hover {
+  transform: scale(1.1);
+  transition: all 3000ms;
+}
 .card img {
   height: 350px;
   border-radius: 15px;
@@ -10256,6 +10260,6 @@ textarea.form-control-lg {
 }
 
 #site_footer {
-  padding: 3rem;
+  padding: 2rem;
   background-color: #7fa1bb;
 }

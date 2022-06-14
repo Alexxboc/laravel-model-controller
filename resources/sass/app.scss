@@ -23,6 +23,10 @@
 /* Card */
 
 .card {
+    &:hover {
+        transform: scale(1.1);
+        transition: all 3000ms;
+    }
     img {
         height: 350px;
         border-radius: 15px;
